@@ -12,16 +12,17 @@ I2C combines the best features of SPI and UARTs. With I2C, you can connect multi
 
 
 
+![Circuit Design of SPI Communication](https://user-images.githubusercontent.com/88238469/195983967-33e1d063-f206-43c2-94cc-68dd8d0f0906.PNG)
 
 
-![Circuit Design of SPI Communication](https://drive.google.com/file/d/16yU6Hl0TB5Qi9b79b5YyGKC_BUSb0qld/view?usp=sharing)
+
 
 
 
 
 ## I2C Protocol Design
 
-![Basic SPI](https://drive.google.com/file/d/1wq5i45U2MoEz7pgVW7xK5hnE_gONwKwV/view?usp=sharing)
+![Basic SPI](https://user-images.githubusercontent.com/88238469/195983965-07c035d4-6f9e-4d6f-9e3e-42a7f094ffa8.PNG)
 
 #### SDA (Serial Data) – The line for the master and slave to send and receive data.
 
@@ -29,7 +30,7 @@ I2C combines the best features of SPI and UARTs. With I2C, you can connect multi
 
 I2C is a serial communication protocol, so data is transferred bit by bit along a single wire (the SDA line)
 Like SPI, I2C is synchronous, so the output of bits is synchronized to the sampling of bits by a clock signal shared between the master and the slave. The clock signal is always controlled by the master.
-
+![Table of Contents](https://user-images.githubusercontent.com/88238469/195983969-5614e9e0-d7fc-45a2-a2d8-c34d623c4e73.PNG)
 
 ## For Further Reference Read this 
 
